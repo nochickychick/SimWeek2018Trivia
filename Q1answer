@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SimweekTrivia2018</title>
+    <style>
+       body {background-color: #eaedf2;}
+h1 {
+    color: #004990;
+    font-family: garamond;
+    font-size: 300%;
+}
+p  {
+    color: #004990;
+    font-family: garamond;
+    font-size: 160%;
+}
+    </style>
+</head>
+
+<body>
+    
+<header>
+</header>
+    
+<h1>Answers and rationales for the Sim Week 2018 Trivia Quiz</h1>
+    <p> Enter the stats for the question here </p>
+<p>1. What year did medicine begin using simulation as a teaching method?</p>
+<p> Possible answers: </p>
+
+<p> correct answer:_________</p>
+<p>Rationale:________</p>
+<p> Links and Resources </p>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://citlatfnu-blogspot-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <footer>
+</footer>
+
+<script id="dsq-count-scr" src="//citlatfnu-blogspot-com.disqus.com/count.js" async></script>
+    </body>
+
+
+
+</html>
