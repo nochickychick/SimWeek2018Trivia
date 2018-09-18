@@ -2,167 +2,49 @@
 <html>
 <head>
     <title>SimweekTrivia2018</title>
-    <link href="https://nochickychick.github.io/SimWeek2018Trivia/StyleSheet.css" rel="stylesheet" />
+    <style>
+       body {background-color: powderblue;}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+p  {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
+    </style>
 </head>
 
 <body>
+    
 <header>
 /<header>
-
-<div class="cont s--inactive">
-  <!-- cont inner start -->
-  <div class="cont__inner">
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 1</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">1</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="1">1</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 2</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">2</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="2">2</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 3</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">3</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="3">3</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 4</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">4</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="4">4</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-    <!-- el start -->
-    <div class="el">
-      <div class="el__overflow">
-        <div class="el__inner">
-          <div class="el__bg"></div>
-          <div class="el__preview-cont">
-            <h2 class="el__heading">Section 5</h2>
-          </div>
-          <div class="el__content">
-            <div class="el__text">Whatever</div>
-            <div class="el__close-btn"></div>
-          </div>
-        </div>
-      </div>
-      <div class="el__index">
-        <div class="el__index-back">5</div>
-        <div class="el__index-front">
-          <div class="el__index-overlay" data-index="5">5</div>
-        </div>
-      </div>
-    </div>
-    <!-- el end -->
-  </div>
-  <!-- cont inner end -->
-</div>
-
-<a href="https://dribbble.com/shots/2802024-Satellite-Website-Prototype" target="_blank" class="icon-link">
-  <img src="http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Dribbble-icon.png">
-</a>
-<a href="https://twitter.com/NikolayTalanov" target="_blank" class="icon-link icon-link--twitter">
-  <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png">
-</a>
-
-<script>
-var $cont = document.querySelector('.cont');
-var $elsArr = [].slice.call(document.querySelectorAll('.el'));
-var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
-
-setTimeout(function() {
-  $cont.classList.remove('s--inactive');
-}, 200);
-
-$elsArr.forEach(function($el) {
-  $el.addEventListener('click', function() {
-    if (this.classList.contains('s--active')) return;
-    $cont.classList.add('s--el-active');
-    this.classList.add('s--active');
-  });
-});
-
-$closeBtnsArr.forEach(function($btn) {
-  $btn.addEventListener('click', function(e) {
-    e.stopPropagation();
-    $cont.classList.remove('s--el-active');
-    document.querySelector('.el.s--active').classList.remove('s--active');
-  });
-});
-</script>
-
-</body>
-
-<footer>
+    
+<h1>Describe quiz and intention</h1>
+<p>Q1 and link</p>
+<p>Q2 and link</p>
+<p>Q3 and link</p>    
+<p>Q4 and link</p>
+<p>Q5 and link</p>
+<p>Q6 and link</p>
+<p>Q7 and link</p>
+<p>Q8 and link</p>
+<p>Q9 and link</p>
+<p>Q10 and link</p>
+<p>Q11 and link</p>
+<p>Q12 and link</p>
+<p>Q13 and link</p>
+<p>Q14 and link</p>
+<p>Q15 and link</p>
+<p>Q16 and link</p>
+    
+    <footer>
 </footer>
+    </body>
+
+
 
 </html>
 
